@@ -1,0 +1,67 @@
+🔴 TOP FEATURES THAT PREDICT CHURN (Red bars - Positive correlation)
+These features increase the likelihood of churn:
+1. Customer_Service_Calls (~0.29)
+What it means: More customer service calls = More likely to churn
+Why: Customers calling support repeatedly are probably frustrated or having issues
+2. Cart_Abandonment_Rate (~0.28)
+What it means: High cart abandonment = More likely to churn
+Why: They're interested but not buying - friction in the purchase process
+3. Days_Since_Last_Purchase (~0.15)
+What it means: Longer time since last purchase = More likely to churn
+Why: Customer engagement is dropping, they're drifting away
+4. Returns_Rate (~0.05)
+What it means: More returns = Slightly more likely to churn
+Why: Unhappy with products
+5. Average_Order_Value (~0.04)
+What it means: Very weak positive correlation
+Why: Almost negligible impact
+
+🟢 TOP FEATURES THAT PREVENT CHURN (Green bars - Negative correlation)
+These features decrease the likelihood of churn:
+1. Pages_Per_Session (~-0.22)
+What it means: More pages browsed per session = Less likely to churn
+Why: Engaged customers explore more, they're interested
+2. Session_Duration_Avg (~-0.22)
+What it means: Longer sessions = Less likely to churn
+Why: Spending more time = More engaged with platform
+3. Email_Open_Rate (~-0.22)
+What it means: Opening more emails = Less likely to churn
+Why: Still interested in your communications
+4. Mobile_App_Usage (~-0.21)
+What it means: Using mobile app more = Less likely to churn
+Why: Multi-channel engagement shows commitment
+5. Login_Frequency (~-0.20)
+What it means: Logging in more often = Less likely to churn
+Why: Active users are engaged users
+
+
+------------------------------------------------------------
+
+💡 KEY INSIGHTS FROM YOUR DATA
+The Story Your Data Tells:
+
+1. Engagement is KEY 🎯
+
+All your top negative correlations are engagement metrics
+Active users (logging in, browsing, using app) don't churn
+Passive users (not engaging) are at risk
+
+
+2. Customer Service is a RED FLAG 🚩
+
+The strongest predictor of churn is customer service calls
+This suggests customers with problems are leaving
+Action: Your company should improve problem resolution
+
+
+3. Cart Abandonment Matters 🛒
+
+Second strongest predictor
+People want to buy but something stops them
+Action: Optimize checkout process, reduce friction
+
+
+4. Recency is Important ⏰
+
+Days since last purchase matters
+Need to re-engage inactive customers before they're gone
